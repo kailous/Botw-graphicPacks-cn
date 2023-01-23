@@ -1,0 +1,270 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 白天时间
+path = "塞尔达传说: 旷野之息/Mods/白天时间"
+description = 允许您设置固定时间或更改昼夜循环的长度。|这可能会改变血月频率或其他与时间相关的机制。||由 chrispurnell 制作。
+version = 6
+
+[Default]
+$timeCycleMode:int = 0
+$timeMultiplier = 1.0
+$cloudMultiplier = 1.0
+$dayTimeEnum:int = 0
+
+
+[Preset]
+name = 启用 (默认)
+category = 日/夜循环
+default = 1
+$timeCycleMode:int = 1
+
+[Preset]
+name = 禁用 (固定时间)
+category = 日/夜循环
+$timeCycleMode:int = 0
+
+
+[Preset]
+name = 15 秒
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = 96
+$cloudMultiplier = 96
+
+[Preset]
+name = 30 秒
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = 48
+$cloudMultiplier = 48
+
+[Preset]
+name = 1 分钟
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = 24
+$cloudMultiplier = 24
+
+[Preset]
+name = 6 分钟
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = 4
+$cloudMultiplier = 4
+
+[Preset]
+name = 12 分钟
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = 2
+$cloudMultiplier = 2
+
+[Preset]
+name = 24 分钟 (默认)
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+default = 1
+$timeMultiplier = 1.0
+$cloudMultiplier = 1.0
+
+[Preset]
+name = 36 分钟
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = 0.75
+$cloudMultiplier = 0.75
+
+[Preset]
+name = 48 分钟
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = 0.5
+$cloudMultiplier = 0.5
+
+[Preset]
+name = 72 分钟
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = (1/3)
+$cloudMultiplier = (1/3)
+
+[Preset]
+name = 96 分钟
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = 0.25
+$cloudMultiplier = 0.25
+
+[Preset]
+name = 2 小时
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = 0.2
+$cloudMultiplier = 0.2
+
+[Preset]
+name = 4 小时
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = 0.1
+$cloudMultiplier = 0.1
+
+[Preset]
+name = 12 小时
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = (1/3)/10
+$cloudMultiplier = (1/3)/10
+
+[Preset]
+name = 24 小时
+category = 一天的长度
+condition = ($timeCycleMode == 1)
+$timeMultiplier = (1/6)/10
+$cloudMultiplier = (1/6)/10
+
+
+[Preset]
+name = 00:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x2A
+
+[Preset]
+name = 01:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0xA
+
+[Preset]
+name = 02:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0xB
+
+[Preset]
+name = 03:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0xC
+
+[Preset]
+name = 04:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0xD
+
+[Preset]
+name = 05:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0xE
+
+[Preset]
+name = 06:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0xF
+
+[Preset]
+name = 07:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x10
+
+[Preset]
+name = 08:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x11
+
+[Preset]
+name = 09:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x12
+
+[Preset]
+name = 10:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x13
+
+[Preset]
+name = 11:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x14
+
+[Preset]
+name = 12:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+default = 1
+$dayTimeEnum = 0x15
+
+[Preset]
+name = 13:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x16
+
+[Preset]
+name = 14:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x17
+
+[Preset]
+name = 15:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x18
+
+[Preset]
+name = 16:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x19
+
+[Preset]
+name = 17:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x1A
+
+[Preset]
+name = 18:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x1B
+
+[Preset]
+name = 19:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x1C
+
+[Preset]
+name = 20:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x1D
+
+[Preset]
+name = 21:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x1E
+
+[Preset]
+name = 22:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x1F
+
+[Preset]
+name = 23:00
+category = 一天中的固定时间
+condition = ($timeCycleMode == 0)
+$dayTimeEnum = 0x20

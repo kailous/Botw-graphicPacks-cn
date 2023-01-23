@@ -1,0 +1,182 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 相机灵敏度
+path = "塞尔达传说: 旷野之息/Mods/相机灵敏度"
+description = 更改相机的灵敏度。|在正常灵敏度之上，您可以在移动时应用额外的灵敏度。||在更高的灵敏度下，垂直灵敏度可能感觉太高 - 使用最后一个选项来修复。||由 FakeMichau 和 theboy181 制作。
+version = 6
+
+[Default]
+$sensitivity = 1.00
+$movementSensitivity = 1.00
+$vertMovementSens = 1.00
+
+[Preset]
+name = 0.5x
+category = 相机灵敏度
+$sensitivity = 0.50
+
+[Preset]
+name = 0.75x
+category = 相机灵敏度
+$sensitivity = 0.9
+
+[Preset]
+name = 0.9x
+category = 相机灵敏度
+$sensitivity = 0.9
+
+[Preset]
+name = 1x (默认)
+category = 相机灵敏度
+default = 1
+
+[Preset]
+name = 1.1x
+category = 相机灵敏度
+$sensitivity = 1.10
+
+[Preset]
+name = 1.25x
+category = 相机灵敏度
+$sensitivity = 1.25
+
+[Preset]
+name = 1.4x (Recommended)
+category = 相机灵敏度
+$sensitivity = 1.40
+
+[Preset]
+name = 1.5x
+category = 相机灵敏度
+$sensitivity = 1.50
+
+[Preset]
+name = 1.75x
+category = 相机灵敏度
+$sensitivity = 1.75
+
+[Preset]
+name = 2x
+category = 相机灵敏度
+$sensitivity = 2.00
+
+[Preset]
+name = 2.5x
+category = 相机灵敏度
+$sensitivity = 2.50
+
+[Preset]
+name = 3x
+category = 相机灵敏度
+$sensitivity = 3.00
+
+
+[Preset]
+name = 0.5x
+category = 额外的运动灵敏度
+$movementSensitivity = 0.5
+
+[Preset]
+name = 0.75x
+category = 额外的运动灵敏度
+$movementSensitivity = 0.75
+
+[Preset]
+name = 0.9x
+category = 额外的运动灵敏度
+$movementSensitivity = 0.9
+
+[Preset]
+name = 1x (默认)
+category = 额外的运动灵敏度
+default = 1
+
+[Preset]
+name = 1.1x
+category = 额外的运动灵敏度
+$movementSensitivity = 1.10
+
+[Preset]
+name = 1.15x (Recommended)
+category = 额外的运动灵敏度
+$movementSensitivity = 1.15
+
+[Preset]
+name = 1.25x
+category = 额外的运动灵敏度
+$movementSensitivity = 1.25
+
+[Preset]
+name = 1.35x
+category = 额外的运动灵敏度
+$movementSensitivity = 1.35
+
+[Preset]
+name = 1.5x
+category = 额外的运动灵敏度
+$movementSensitivity = 1.50
+
+[Preset]
+name = 2x
+category = 额外的运动灵敏度
+$movementSensitivity = 2.00
+
+[Preset]
+name = 2.5x
+category = 额外的运动灵敏度
+$movementSensitivity = 2.50
+
+[Preset]
+name = 3x
+category = 额外的运动灵敏度
+$movementSensitivity = 3.00
+
+[Preset]
+name = 0.2x
+category = 额外的垂直运动灵敏度
+$vertMovementSens = 0.2
+
+[Preset]
+name = 0.3x
+category = 额外的垂直运动灵敏度
+$vertMovementSens = 0.3
+
+[Preset]
+name = 0.4x
+category = 额外的垂直运动灵敏度
+$vertMovementSens = 0.4
+
+[Preset]
+name = 0.5x
+category = 额外的垂直运动灵敏度
+$vertMovementSens = 0.5
+
+[Preset]
+name = 0.6x
+category = 额外的垂直运动灵敏度
+$vertMovementSens = 0.6
+
+[Preset]
+name = 0.7x
+category = 额外的垂直运动灵敏度
+$vertMovementSens = 0.7
+
+[Preset]
+name = 0.8x
+category = 额外的垂直运动灵敏度
+$vertMovementSens = 0.8
+
+[Preset]
+name = 0.9x
+category = 额外的垂直运动灵敏度
+$vertMovementSens = 0.9
+
+[Preset]
+name = 1x (默认)
+category = 额外的垂直运动灵敏度
+default = 1
+
+[Preset]
+name = 1.1x
+category = 额外的垂直运动灵敏度
+$vertMovementSens = 1.10

@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 兼容插件
+path = "塞尔达传说: 旷野之息/附加MOD/世界相关/动作系统/WR+林可儿"
+description = [Wild_Running] 和 [林可儿] 同时使用需要的兼容插件.|使用时请同时勾选以下选项：||>>>[WR+林可儿]|>>>[林可儿]
+version = 4
+fsPriority = 1003

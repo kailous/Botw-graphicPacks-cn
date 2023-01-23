@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 阴影变通办法 (适用于旧版 Cemu)
+path = "塞尔达传说: 旷野之息/变通办法/针对 OpenGL 的 GPU 特定解决方法/AMD 和 Intel：Shadows（适用于旧版 Cemu）"
+description = 仅在遇到问题时才启用此包。|使用 Cemu 版本和某些驱动程序版本的某些组合降低了 Intel 和 AMD GPU 上错误阴影的严重性。||由 ethrillo 和 Cypher 制作。
+version = 6
+rendererFilter = opengl

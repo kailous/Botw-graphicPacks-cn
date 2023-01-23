@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 在所有地区生成摩托车
+path = "塞尔达传说: 旷野之息/作弊/在所有地区生成摩托车"
+description = 允许您在所有地区生成摩托车（通常您不能在 Gerudo 沙漠和 Eldin）。||由 Zeikken（移植）和 leoetlino（原始代码）制作。
+version = 6

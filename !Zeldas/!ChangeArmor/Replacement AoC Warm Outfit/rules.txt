@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 服装自选套件
+path = 塞尔达传说: 旷野之息/附加MOD/塞尔达组件/服装更换(可多选)/华丽白(利特套)
+description = 还行还行吧...
+version = 4
+fsPriority = 1003

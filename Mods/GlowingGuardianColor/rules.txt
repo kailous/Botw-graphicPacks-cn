@@ -1,0 +1,341 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 守护者发光颜色
+path = "塞尔达传说: 旷野之息/Mods/守护者发光颜色"
+description = 改变远古事物上发光线条的颜色。||注意：古代武器上的一半线条由“守护者、潜行者、侦察兵和守护者武器”控制，其他线条由“守护者+天空观察者”控制。 这可用于制作多种颜色的守护者武器。||由 Kiri 和 Pig 制作。
+version = 6
+
+[Default]
+$armorR = 0.000
+$armorG = 0.000
+$armorB = 0.000
+$armorL_f = 2.0
+$wpnR = 0.000
+$wpnG = 0.000
+$wpnB = 0.000
+$wpnL = 40.0
+$wpnDefault:int = 0
+$gsswR = 0.000
+$gsswG = 0.000
+$gsswB = 0.000
+$gsswL_f = 1.0
+$gsswDefault:int = 0
+$dgrdR = 0.000
+$dgrdG = 0.000
+$dgrdB = 0.000
+$dgrdL_f = 1.0
+$grdskyR = 0.000
+$grdskyG = 0.000
+$grdskyB = 0.000
+$grdskyL_f = 1.0
+$grdskyDefault:int = 0
+
+# Ancient Armor
+
+[Preset]
+name = 猩红
+category = 古代盔甲
+$armorR = 0.85
+$armorG = 0.029
+$armorB = 0.15
+$armorL_f = 1.0
+
+[Preset]
+name = 守护者黄
+category = 古代盔甲
+$armorR = 1.0
+$armorG = 0.2
+$armorB = 0.059
+$armorL_f = 2.0
+
+[Preset]
+name = 守护者武器黄
+category = 古代盔甲
+$armorR = 1.0
+$armorG = 0.2
+$armorB = 0.0
+$armorL_f = 1.5
+
+[Preset]
+name = 古代橙色 (默认)
+category = 古代盔甲
+default = 1
+$armorR = 1.0
+$armorG = 0.2
+$armorB = 0.0006
+$armorL_f = 1.0
+
+[Preset]
+name = 古代武器橙色
+category = 古代盔甲
+$armorR = 1.0
+$armorG = 0.15
+$armorB = 0.05
+$armorL_f = 1.0
+
+[Preset]
+name = 能量蓝
+category = 古代盔甲
+$armorR = 0.03
+$armorG = 0.25
+$armorB = 1.0
+$armorL_f = 2.0
+
+[Preset]
+name = 自定义 (在rules.txt中编辑)
+category = 古代盔甲
+$armorR = 0.000
+$armorG = 0.000
+$armorB = 0.000
+$armorL_f = 2.0  # Brightness scaling factor
+
+# Ancient Weapons
+
+[Preset]
+name = 猩红
+category = 古代武器
+$wpnR = 0.85
+$wpnG = 0.029
+$wpnB = 0.15
+$wpnL = 20.0
+
+[Preset]
+name = 守护者黄
+category = 古代武器
+$wpnR = 1.0
+$wpnG = 0.2
+$wpnB = 0.059
+$wpnL = 40.0
+
+[Preset]
+name = 守护者武器黄
+category = 古代武器
+$wpnR = 1.0
+$wpnG = 0.2
+$wpnB = 0.0
+$wpnL = 29.576
+
+[Preset]
+name = 古代橙色
+category = 古代武器
+$wpnR = 1.0
+$wpnG = 0.2
+$wpnB = 0.0006
+$wpnL = 11.525
+
+[Preset]
+name = 古代武器橙色
+category = 古代武器
+$wpnR = 1.0
+$wpnG = 0.15
+$wpnB = 0.05
+$wpnL = 20.0
+
+[Preset]
+name = 能量蓝
+category = 古代武器
+$wpnR = 0.03
+$wpnG = 0.25
+$wpnB = 1.0
+$wpnL = 40.0
+
+[Preset]
+name = 多变 (默认)
+category = 古代武器
+default = 1
+$wpnDefault:int = 1
+
+[Preset]
+name = 自定义 (在rules.txt中编辑)
+category = 古代武器
+$wpnR = 0.000
+$wpnG = 0.000
+$wpnB = 0.000
+$wpnL = 40.0  # Brightness, can't scale because original unnormalized color use L=1
+
+# Decayed Guardian
+
+[Preset]
+name = 猩红 (默认)
+category = 腐朽的守护者
+default = 1
+$dgrdR = 0.85
+$dgrdG = 0.029
+$dgrdB = 0.15
+$dgrdL_f = 1.0
+
+[Preset]
+name = 守护者黄
+category = 腐朽的守护者
+$dgrdR = 1.0
+$dgrdG = 0.2
+$dgrdB = 0.059
+$dgrdL_f = 1.0
+
+[Preset]
+name = 守护者武器黄
+category = 腐朽的守护者
+$dgrdR = 1.0
+$dgrdG = 0.2
+$dgrdB = 0.0
+$dgrdL_f = 1.0
+
+[Preset]
+name = 古代橙色
+category = 腐朽的守护者
+$dgrdR = 1.0
+$dgrdG = 0.2
+$dgrdB = 0.0006
+$dgrdL_f = 1.0
+
+[Preset]
+name = 古代武器橙色
+category = 腐朽的守护者
+$dgrdR = 1.0
+$dgrdG = 0.15
+$dgrdB = 0.05
+$dgrdL_f = 1.0
+
+[Preset]
+name = 能量蓝
+category = 腐朽的守护者
+$dgrdR = 0.03
+$dgrdG = 0.25
+$dgrdB = 1.0
+$dgrdL_f = 1.0
+
+[Preset]
+name = 自定义 (在rules.txt中编辑)
+category = 腐朽的守护者
+$dgrdR = 0.000
+$dgrdG = 0.000
+$dgrdB = 0.000
+$dgrdL_f = 1.0
+
+# Guardian, Stalker, Scout and Weapons
+
+[Preset]
+name = 猩红
+category = 守护者, 潜行者, 侦察兵 和 守护者武器
+$gsswR = 0.85
+$gsswG = 0.029
+$gsswB = 0.15
+$gsswL_f = 1.0
+
+[Preset]
+name = 守护者黄
+category = 守护者, 潜行者, 侦察兵 和 守护者武器
+$gsswR = 1.0
+$gsswG = 0.2
+$gsswB = 0.059
+$gsswL_f = 1.0
+
+[Preset]
+name = 守护者武器黄
+category = 守护者, 潜行者, 侦察兵 和 守护者武器
+$gsswR = 1.0
+$gsswG = 0.2
+$gsswB = 0.0
+$gsswL_f = 1.0
+
+[Preset]
+name = 古代橙色
+category = 守护者, 潜行者, 侦察兵 和 守护者武器
+$gsswR = 1.0
+$gsswG = 0.2
+$gsswB = 0.0006
+$gsswL_f = 1.0
+
+[Preset]
+name = 古代武器橙色
+category = 守护者, 潜行者, 侦察兵 和 守护者武器
+$gsswR = 1.0
+$gsswG = 0.15
+$gsswB = 0.05
+$gsswL_f = 1.0
+
+[Preset]
+name = 能量蓝
+category = 守护者, 潜行者, 侦察兵 和 守护者武器
+$gsswR = 0.03
+$gsswG = 0.25
+$gsswB = 1.0
+$gsswL_f = 1.0
+
+[Preset]
+name = 多变 (默认)
+category = 守护者, 潜行者, 侦察兵 和 守护者武器
+default = 1
+$gsswDefault:int = 1
+
+[Preset]
+name = 自定义 (在rules.txt中编辑)
+category = 守护者, 潜行者, 侦察兵 和 守护者武器
+$gsswR = 0.000
+$gsswG = 0.000
+$gsswB = 0.000
+$gsswL_f = 1.0
+
+# Guardian + Skywatcher
+
+[Preset]
+name = 猩红
+category = 守护者 + 天空守望者
+$grdskyR = 0.85
+$grdskyG = 0.029
+$grdskyB = 0.15
+$grdskyL_f = 1.0
+
+[Preset]
+name = 守护者黄
+category = 守护者 + 天空守望者
+$grdskyR = 1.0
+$grdskyG = 0.2
+$grdskyB = 0.059
+$grdskyL_f = 1.0
+
+[Preset]
+name = 守护者武器黄
+category = 守护者 + 天空守望者
+$grdskyR = 1.0
+$grdskyG = 0.2
+$grdskyB = 0.0
+$grdskyL_f = 1.0
+
+[Preset]
+name = 古代橙色
+category = 守护者 + 天空守望者
+$grdskyR = 1.0
+$grdskyG = 0.2
+$grdskyB = 0.0006
+$grdskyL_f = 1.0
+
+[Preset]
+name = 古代武器橙色
+category = 守护者 + 天空守望者
+$grdskyR = 1.0
+$grdskyG = 0.15
+$grdskyB = 0.05
+$grdskyL_f = 1.0
+
+[Preset]
+name = 能量蓝
+category = 守护者 + 天空守望者
+$grdskyR = 0.03
+$grdskyG = 0.25
+$grdskyB = 1.0
+$grdskyL_f = 1.0
+
+[Preset]
+name = 多变 (默认)
+category = 守护者 + 天空守望者
+default = 1
+$grdskyDefault:int = 1
+
+[Preset]
+name = 自定义 (在rules.txt中编辑)
+category = 守护者 + 天空守望者
+$grdskyR = 0.000
+$grdskyG = 0.000
+$grdskyB = 0.000
+$grdskyL_f = 1.0

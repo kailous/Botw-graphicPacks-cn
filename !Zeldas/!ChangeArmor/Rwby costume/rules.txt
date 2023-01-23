@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 服装自选套件
+path = 塞尔达传说: 旷野之息/附加MOD/塞尔达组件/服装更换(可多选)/红凶凶(黑暗套)
+description = 这个也还行...
+version = 4
+fsPriority = 1003

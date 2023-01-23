@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 大妖精
+path = "塞尔达传说: 旷野之息/附加MOD/NPC相关/姐姐大妖精"
+description = 替换妖精之泉大妖精模型，略微暴露....
+version = 4

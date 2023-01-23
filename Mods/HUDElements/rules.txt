@@ -1,0 +1,64 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 删除 HUD 元素
+path = "塞尔达传说: 旷野之息/Mods/删除 HUD 元素"
+description = 隐藏 HUD 元素，如主模式图标、红心、耐力轮和字幕。|此模组仅旨在删除游戏的 Pro HUD 模式尚未删除的内容。
+version = 6
+
+[Default]
+$hideSubtitles:int = 0
+$hideHearts:int = 0
+$hideStamina:int = 0
+$hideMasterModeIcon:int = 0
+$hideCameraGUI:int = 0
+
+[Preset]
+name = 启用 (默认)
+category = 大师模式图标
+default = 1
+
+[Preset]
+name = 禁用
+category = 大师模式图标
+$hideMasterModeIcon:int = 1
+
+[Preset]
+name = 启用 (默认)
+category = 心心
+default = 1
+
+[Preset]
+name = 禁用
+category = 心心
+$hideHearts:int = 1
+
+[Preset]
+name = 启用 (默认)
+category = 耐力
+default = 1
+
+[Preset]
+name = 禁用
+category = 耐力
+$hideStamina:int = 1
+
+[Preset]
+name = 启用 (默认)
+category = 相机 HUD（用于屏幕截图）
+default = 1
+
+[Preset]
+name = 禁用 (messes with text and hearts)
+category = 相机 HUD（用于屏幕截图）
+$hideCameraGUI:int = 1
+$hideHearts:int = 1
+
+[Preset]
+name = 启用 (默认)
+category = 字幕（用于屏幕截图）
+default = 1
+
+[Preset]
+name = 禁用 (messes with text)
+category = 字幕（用于屏幕截图）
+$hideSubtitles:int = 1

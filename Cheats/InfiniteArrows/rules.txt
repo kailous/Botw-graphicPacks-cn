@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 无限箭矢
+path = "塞尔达传说: 旷野之息/作弊/无限箭矢"
+description = 为您提供无限的箭矢。||由 C313571N 和 Xalphenos 制造 kailous汉化
+version = 6

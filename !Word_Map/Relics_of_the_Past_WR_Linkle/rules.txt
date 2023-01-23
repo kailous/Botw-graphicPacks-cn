@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 兼容插件
+path = "塞尔达传说: 旷野之息/附加MOD/世界相关/失落遗迹/RP+WR+林可儿"
+description = [Relics of the Past-V2.5.0b] [Wild_Running] 和 [林可儿] 同时使用需要的兼容插件.|使用时请同时勾选以下选项：||>>>[RP+WR+林可儿]|>>>[RP+林可儿]|>>>[Relics of the Past-V2.5.0b]|>>>[林可儿]||体验全新的动作系统吧!|新的跳跃动作，无盾锁定，更容易的持弓林克时间.
+version = 4
+fsPriority = 1007

@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = NPC 口吃修复 (OpenGL)
+path = "塞尔达传说: 旷野之息/变通办法/NPC 口吃修复 (OpenGL)"
+description = 当禁用 GX2DrawDone() 的完全同步时，防止 NPC 在远处卡顿。 仅适用于 OpenGL。||由 Xalphenos 制造。
+rendererFilter = opengl
+version = 6

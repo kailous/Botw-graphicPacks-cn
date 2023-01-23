@@ -1,0 +1,108 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 防止随机生成
+path = "塞尔达传说: 旷野之息/作弊/防止随机生成"
+description = 允许您单独切换哪些敌人可以随机生成。 您还可以使用它来禁用所有动物。
+version = 6
+
+[Default]
+$preventYigaClan:int = 0
+$preventStalkoblin:int = 0
+$preventStalmoblin:int = 0
+$preventStalizalfos:int = 0
+$preventChuchu:int = 0
+$preventKeese:int = 0
+
+$preventOctarock:int = 0
+$preventLizalfos:int = 0
+
+$preventEnemies:int = 0
+$preventAnimals:int = 0
+
+
+[Preset]
+category = 防止依盖队生成
+name = 禁用（默认）
+default = 1
+$preventYigaClan:int = 0
+
+[Preset]
+category = 防止依盖队生成
+name = 启用
+$preventYigaClan:int = 1
+
+
+[Preset]
+category = 防止生成骷髅类敌人
+name = 禁用（默认）
+default = 1
+$preventStalkoblin:int = 0
+$preventStalmoblin:int = 0
+$preventStalizalfos:int = 0
+
+[Preset]
+category = 防止生成骷髅类敌人
+name = 启用 (Stalkoblin, Stalmoblin & Stalizalfos)
+$preventStalkoblin:int = 1
+$preventStalmoblin:int = 1
+$preventStalizalfos:int = 1
+
+
+[Preset]
+category = 防止蝙蝠生成
+name = 禁用（默认）
+default = 1
+$preventKeese:int = 0
+
+[Preset]
+category = 防止蝙蝠生成
+name = 启用
+$preventKeese:int = 1
+
+
+[Preset]
+category = 防止丘丘生成
+name = 禁用（默认）
+default = 1
+$preventChuchu:int = 0
+
+[Preset]
+category = 防止丘丘生成
+name = 启用
+$preventChuchu:int = 1
+
+
+[Preset]
+category = 防止章鱼生成
+name = 禁用（默认）
+default = 1
+$preventOctarock:int = 0
+
+[Preset]
+category = 防止章鱼生成
+name = 启用
+$preventOctarock:int = 1
+
+
+[Preset]
+category = 防止蜥蜴人产卵
+name = 禁用（默认）
+default = 1
+$preventLizalfos:int = 0
+
+[Preset]
+category = 防止蜥蜴人产卵
+name = 启用
+$preventLizalfos:int = 1
+
+
+[Preset]
+category = 防止所有动物、昆虫和鱼类产卵
+name = 禁用（默认）
+default = 1
+$preventAnimals:int = 0
+
+[Preset]
+category = 防止所有动物、昆虫和鱼类产卵
+name = 启用
+$preventAnimals:int = 1

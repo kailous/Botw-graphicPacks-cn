@@ -1,0 +1,222 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 绘制距离
+path = "塞尔达传说: 旷野之息/Mods/绘制距离"
+description = 延长游戏中物体和实体的绘制距离，当它更高时，性能会略有下降。|降低它不会提供更多性能。|您还可以使远处的纹理显示为更高分辨率的变体。||制作者 Crementif。
+version = 6
+
+[Default]
+$actor = 1.0
+$object = 1.0
+$tree = 0.5
+$grass = 1000.0
+$textureLODBias:int = 0
+
+
+# Actor Draw Distance
+
+[Preset]
+name = 非常低 (0.5x)
+category = NPC、敌人和其他实体
+$actor = 0.5
+
+[Preset]
+name = 低 (0.75x)
+category = NPC、敌人和其他实体
+$actor = 0.75
+
+[Preset]
+name = 中 (1x)
+category = NPC、敌人和其他实体
+default = 1
+$actor = 1.0
+
+[Preset]
+name = 高 (1.25x)
+category = NPC、敌人和其他实体
+$actor = 1.25
+
+[Preset]
+name = 超高 (1.5x)
+category = NPC、敌人和其他实体
+$actor = 1.5
+
+[Preset]
+name = 极限 (2x, 需要扩展内存包!)
+category = NPC、敌人和其他实体
+$actor = 2
+
+# Objects Draw Distance
+
+# People ran into issues with events spawning
+# [Preset]
+# name = 土豆 (0.2x)
+# category = 地形、建筑物、灌木丛和其他物体
+# $object = 0.2
+# 
+# [Preset]
+# name = 非常低 (0.5x)
+# category = 地形、建筑物、灌木丛和其他物体
+# $object = 0.5
+
+[Preset]
+name = 低 (0.75x)
+category = 地形、建筑物、灌木丛和其他物体
+$object = 0.75
+
+[Preset]
+name = 中 (1x)
+category = 地形、建筑物、灌木丛和其他物体
+default = 1
+$object = 1.0
+
+[Preset]
+name = 高 (1.25x)
+category = 地形、建筑物、灌木丛和其他物体
+$object = 1.25
+
+[Preset]
+name = 超高 (1.5x, requires Extended Memory pack!)
+category = 地形、建筑物、灌木丛和其他物体
+$object = 1.5
+
+
+# Tree Billboard Draw Distance
+
+[Preset]
+name = Potato
+category = Trees (2D Billboards)
+$tree = 0.5*1.5
+
+[Preset]
+name = 低
+category = Trees (2D Billboards)
+$tree = 0.5*1.25
+
+[Preset]
+name = 中 (默认)
+category = Trees (2D Billboards)
+default = 1
+$tree = 0.5*1.0
+
+[Preset]
+name = 高
+category = Trees (2D Billboards)
+$tree = 0.5*0.75
+
+[Preset]
+name = 超高
+category = Trees (2D Billboards)
+$tree = 0.5*0.5
+
+[Preset]
+name = 极限
+category = Trees (2D Billboards)
+$tree = 0.5*0.25
+
+
+# Grass Blades Draw Distance
+
+[Preset]
+name = Potato
+category = Grass Blades Density
+$grass = 1000*2.0
+
+[Preset]
+name = 低
+category = Grass Blades Density
+$grass = 1000*1.5
+
+[Preset]
+name = 中 (默认)
+category = Grass Blades Density
+default = 1
+$grass = 1000*1.0
+
+[Preset]
+name = 高
+category = Grass Blades Density
+$grass = 1000*0.9
+
+[Preset]
+name = 超高 (experimental)
+category = Grass Blades Density
+$grass = 1000*0.7
+
+[Preset]
+name = 极限 (experimental)
+category = Grass Blades Density
+$grass = 1000*0.5
+
+
+# Texture LOD Bias
+
+[Preset]
+name = 低est (+16, Not Recommended)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = +16
+
+[Preset]
+name = 极限ly low (+8, Not Recommended)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = +8
+
+[Preset]
+name = 非常低 (+4, Not Recommended)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = +4
+
+[Preset]
+name = Much lower (+3, Not Recommended)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = +3
+
+[Preset]
+name = 低er (+2)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = +2
+
+[Preset]
+name = Slightly lower (+1)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = +1
+
+[Preset]
+name = Normal (默认)
+category = Texture Distance Detail (LOD)
+default = 1
+
+[Preset]
+name = Slightly higher (-1)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = -1
+
+[Preset]
+name = 高er (-2)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = -2
+
+[Preset]
+name = Much higher(-3)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = -3
+
+[Preset]
+name = Very high (-4, Not Recommended)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = -4
+
+[Preset]
+name = 极限ly high (-8, Not Recommended)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = -8
+
+[Preset]
+name = 高est (-16, Not Recommended)
+category = Texture Distance Detail (LOD)
+$textureLODBias:int = -16
+
+
+[TextureRedefine]
+formats = 0x31,0x32,0x34,0x35,0x431,0x432,0x433,0x234,0x235
+overwriteRelativeLodBias = $textureLODBias

@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 无限Amiibo
+path = "塞尔达传说: 旷野之息/作弊/无限Amiibo"
+description = 取消了每天只允许扫描每个 amiibo 的限制。||由 C313571N 和 Xalphenos 制造。
+version = 6

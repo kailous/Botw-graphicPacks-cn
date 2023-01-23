@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = Infinite Hearts
+path = "塞尔达传说: 旷野之息/作弊/无限生命"
+description = 防止你受到任何伤害。 不会增加您拥有的红心数量，因此不会影响您的保存文件。||由 C313571N 和 Xalphenos 制作。
+version = 6

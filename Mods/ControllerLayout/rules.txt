@@ -1,0 +1,9 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = Xbox 控制器按钮布局
+path = "塞尔达传说: 旷野之息/Mods/Xbox 控制器按钮布局"
+description = 将 ABXY 按钮从任天堂布局换成标准 PC/Xbox 布局。|您可以在 GameBanana 上找到适用于 PS4/PS5 控制器的模组。|自定义键位不适合此模组。
+version = 6
+
+[Default]
+$enableDebugLogging:int = 0

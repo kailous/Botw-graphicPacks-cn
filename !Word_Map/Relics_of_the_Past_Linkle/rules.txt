@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 兼容插件
+path = "塞尔达传说: 旷野之息/附加MOD/世界相关/失落遗迹/RP+林可儿"
+description = [Relics of the Past-V2.5.0b] 和 [林可儿] 同时使用需要的兼容插件.|使用时请同时勾选以下选项：||>>>[RP+林可儿]|>>>[Relics of the Past-V2.5.0b]|>>>[林可儿]
+version = 4
+fsPriority = 1006

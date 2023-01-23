@@ -1,0 +1,204 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 增强功能
+path = "塞尔达传说: 旷野之息/增强功能"
+description = 允许您更改后处理效果和纹理细节以增强图片。||由 Kiri、Jamie、M&&M、Pig、Skyth 和清晰度预设创建者制作。
+version = 6
+
+[Default]
+$preset:int = 10
+$disableClarity:int = 0
+$disableDOF:int = 0
+$reflExtra:int = 0
+$sampleCount:int = 4
+$advancedLOD = 0
+$lodBias = 0
+$anisotropy = 1
+
+# Clarity Preset
+
+[Preset]
+name = 禁用 (默认)
+category = 清晰度
+default = 1
+$disableClarity:int = 1
+
+[Preset]
+name = Serfrost 的预设 (推荐)
+category = 清晰度
+$preset:int = 10
+
+[Preset]
+name = Serfrost 的预设 (暗淡的显示)
+category = 清晰度
+$preset:int = 9
+
+[Preset]
+name = Serfrost 的预设 (明亮的显示)
+category = 清晰度
+$preset:int = 8
+
+[Preset]
+name = Bruz 的预设
+category = 清晰度
+$preset:int = 1
+
+[Preset]
+name = CellHunter 的预设
+category = 清晰度
+$preset:int = 7
+
+[Preset]
+name = Jamie 的预设
+category = 清晰度
+$preset:int = 3
+
+[Preset]
+name = t3nka 中性+
+category = 清晰度
+$preset:int = 2
+
+[Preset]
+name = The Complaining Gamer 的预设
+category = 清晰度
+$preset:int = 5
+
+[Preset]
+name = ViskClarity 预设
+category = 清晰度
+$preset:int = 11
+
+[Preset]
+name = Contrasty 预设
+category = 清晰度
+$preset:int = 4
+
+[Preset]
+name = Filmic 预设
+category = 清晰度
+$preset:int = 6
+
+[Preset]
+name = Silentverge 的野外生存预设（温暖）
+category = 清晰度
+$preset:int = 12
+
+[Preset]
+name = Silentverge 的野外生存预设（较冷）
+category = 清晰度
+$preset:int = 13
+
+[Preset]
+name = Godot's Mexican 预设
+category = 清晰度
+$preset:int = 14
+
+[Preset]
+name = Hexaae's Clear 预设
+category = 清晰度
+$preset:int = 15
+
+[Preset]
+name = MaranBr 预设（更强烈一点）
+category = 清晰度
+$preset:int = 16
+
+[Preset]
+name = 用户定义的预设
+category = 清晰度
+$preset:int = 0
+
+# Depth of Field
+
+[Preset]
+name = 启用
+category = 景深
+default = 1
+
+[Preset]
+name = 禁用 (没有性能提升)
+category = 景深
+$disableDOF:int = 1
+
+# Enhanced Reflections
+
+[Preset]
+name = 正常反射
+category = 反射
+default = 1
+
+[Preset]
+name = 增强反射
+category = 反射
+$reflExtra:int = 1
+
+# SSR Sample Count
+
+[Preset]
+name = 禁用
+category = 反射范围
+$sampleCount:int = 0
+
+[Preset]
+name = 超低 (2个采样)
+category = 反射范围
+$sampleCount:int = 2
+
+[Preset]
+name = 低 (4个采样, 默认)
+category = 反射范围
+default = 1
+
+[Preset]
+name = 中 (8个采样)
+category = 反射范围
+$sampleCount:int = 8
+
+[Preset]
+name = 高 (16个采样)
+category = 反射范围
+$sampleCount:int = 16
+
+[Preset]
+name = 超高 (32个采样)
+category = 反射范围
+$sampleCount:int = 32
+
+[Preset]
+name = 极限 (64个采样)
+category = 反射范围
+$sampleCount:int = 64
+
+# Anisotropic Filtering
+
+[Preset]
+name = 极限 (16x)
+category = 各向异性过滤
+$anisotropy = 16
+
+[Preset]
+name = 超高 (8x, 默认)
+category = 各向异性过滤
+default = 1
+$anisotropy = 8
+
+[Preset]
+name = 高 (4x)
+category = 各向异性过滤
+$anisotropy = 4
+
+[Preset]
+name = 中 (2x)
+category = 各向异性过滤
+$anisotropy = 2
+
+[Preset]
+name = 低 (1x)
+category = 各向异性过滤
+$anisotropy = 1
+
+
+[TextureRedefine]
+tileModesExcluded = 0x001 # ignore cpu processed textures (ex. videos)
+formatsExcluded = 0x001,0x005,0x007,0x019,0x01a,0x01f,0x122,0x41a,0x806,0x80e,0x816,0x820 # ignore viewports, cubemaps, and shadows
+overwriteAnisotropy = $anisotropy

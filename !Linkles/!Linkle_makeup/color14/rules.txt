@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 口红自选
+path = "塞尔达传说: 旷野之息/附加MOD/林可儿组件/口红更换(单选)/浅乌"
+description = 鬼知道是个什么颜色呢...
+version = 4
+fsPriority = 1001

@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = Second Wind
+path = "塞尔达传说: 旷野之息/附加MOD/世界相关/第二荒野/Second Wind-V1.9.8a"
+description = 第二荒野V1.9.8a测试版|由众多国外民间大神自制MOD，进行大量修改!|几乎修改了所有神庙风格，加入新的装备，BOSS等!|目前为测试版本，可能出现BUG!|修复了MOD文字在日版汉化中的显示!|且因只发布为欧美版本，所以MOD相关部分没有中文!!!||项目地址：https://gamebanana.com/projects/35468||注：不能与 [失落遗迹] [塞尔达组件] 一起勾选!!!
+version = 4
+fsPriority = 1004

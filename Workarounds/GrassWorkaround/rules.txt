@@ -1,0 +1,8 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = AMD Vulkan 驱动程序的草地摇摆解决方法
+path = "塞尔达传说: 旷野之息/变通办法/草地摇曳 (Vulkan)"
+description = 修复了缺少 Vulkan 扩展时远处草地不正确摇摆的问题。|如果您在使用 Intel/Nvidia GPU 时遇到此问题，则应更新您的驱动程序。||由 Exzap 制造。
+rendererFilter = vulkan
+vendorFilter = amd
+version = 6

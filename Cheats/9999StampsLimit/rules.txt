@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 9999 地图标记限制
+path = "塞尔达传说: 旷野之息/作弊/9999 地图标记限制"
+description = "允许您在地图上放置 9999 个标记而不是默认的 100 个。||Kirbymimi 的原始作弊，由 Waikuteru 调整，由 Kailous 汉化。"
+version = 7

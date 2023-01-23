@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 装备增强
+path = "塞尔达传说: 旷野之息/附加MOD/装备相关/Amiibo和DLC装备增强/失落遗迹 兼容插件"
+description = 使用[失落遗迹] 时 请和 [主插件] 一起勾选.
+version = 4
+fsPriority = 1005

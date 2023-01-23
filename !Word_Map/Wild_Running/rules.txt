@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = Wild Running
+path = "塞尔达传说: 旷野之息/附加MOD/世界相关/动作系统/Wild Running"
+description = 体验全新的动作系统吧!让你在战斗中更加强大!|新的跳跃动作，无盾锁定，更容易的持弓林克时间.||注：不能与 [塞尔达组件] 一起勾选!!!|且无法作用于 [第二荒野].
+version = 4
+fsPriority = 1002
