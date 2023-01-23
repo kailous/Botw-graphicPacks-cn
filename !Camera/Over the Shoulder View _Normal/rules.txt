@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = "视角MOD"
+path = "塞尔达传说: 旷野之息/附加MOD/视角切换(单选)/偏左(正常)"
+description = 人物靠近屏幕左侧，正常视野.
+version = 4

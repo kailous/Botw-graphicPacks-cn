@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = "视角MOD"
+path = "塞尔达传说: 旷野之息/附加MOD/视角切换(单选)/近景"
+description = 人物更大且靠近屏幕下方，视野较小.
+version = 4
