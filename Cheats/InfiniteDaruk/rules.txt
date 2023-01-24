@@ -2,5 +2,5 @@
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
 name = 无限达鲁克鲁的守护
 path = "塞尔达传说: 旷野之息/作弊/无限英杰力量/无限达鲁克鲁的守护"
-description = 让您可以不受时间限制地使用 达鲁克鲁的守护。||由 C313571N 和 Xalphenos 制造。
+description = 让您可以不受时间限制地使用 达鲁克鲁的守护。||由 C313571N 和 Xalphenos 制造。||汉化 RainForest
 version = 6

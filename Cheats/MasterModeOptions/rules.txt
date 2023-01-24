@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = "主模式选项"
-path = "塞尔达传说: 旷野之息/作弊/主模式选项"
-description = 允许您选择将任天堂的哪些更改应用于大师模式（在普通模式下不执行任何操作）。 需要重新启动才能应用在游戏运行时所做的更改。 ||作者：Torphedo 和 Fleevoid，Exzap 和 leoetlino 提供了大量帮助。 NiceNerd 破解的 1.5 倍伤害倍数。
+name = "大师模式选项"
+path = "塞尔达传说: 旷野之息/作弊/大师模式选项"
+description = 允许您选择将任天堂的哪些更改应用于大师模式（在普通模式下不执行任何操作）。 需要重新启动才能应用在游戏运行时所做的更改。 ||作者：Torphedo 和 Fleevoid，Exzap 和 leoetlino 提供了大量帮助。 NiceNerd 破解的 1.5 倍伤害倍数。||汉化 RainForest
 version = 7
 
 [Default]

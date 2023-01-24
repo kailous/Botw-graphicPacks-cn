@@ -2,7 +2,7 @@
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
 name = 箭矢射速
 path = "塞尔达传说: 旷野之息/作弊/箭矢射速"
-description = 更改箭矢的射速。||由 C313571N 和 Xalphenos 制造。
+description = 更改箭矢的射速。||由 C313571N 和 Xalphenos 制造。||汉化 RainForest
 version = 6
 
 [Default]

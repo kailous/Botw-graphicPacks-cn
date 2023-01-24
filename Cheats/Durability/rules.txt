@@ -2,7 +2,7 @@
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
 name = 耐久度
 path = "塞尔达传说: 旷野之息/作弊/耐久度"
-description = 修改武器、弓箭和盾牌的耐久性（燃烧伤害和投掷武器除外）。||由 Nopt 制造，kailous汉化。
+description = 修改武器、弓箭和盾牌的耐久性（燃烧伤害和投掷武器除外）。||由 Nopt 制造||汉化 RainForest
 version = 6
 
 [Default]
