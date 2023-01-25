@@ -1,7 +1,7 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
 name = 重新着色兼容性
-path = "塞尔达传说: 旷野之息/变通办法/Reshade 兼容性（仅在使用 Reshade 时启用）"
+path = "塞尔达传说: 旷野之息/Bug修复/Reshade 兼容性（仅在使用 Reshade 时启用）"
 description = 使依赖于深度缓冲区的 Reshade 效果发挥作用，但会导致照明和远处山脉闪烁的问题。 应仅在使用 Reshade 时启用。
 rendererFilter = vulkan
 version = 6

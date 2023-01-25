@@ -1,7 +1,7 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
 name = 增强功能
-path = "塞尔达传说: 旷野之息/增强功能"
+path = "塞尔达传说: 旷野之息/画质增强"
 description = 允许您更改后处理效果和纹理细节以增强图片。||由 Kiri、Jamie、M&&M、Pig、Skyth 和清晰度预设创建者制作。
 version = 6
 

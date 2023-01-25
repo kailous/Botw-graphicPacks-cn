@@ -1,7 +1,7 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
 name = 拉伸云解决方法（NVIDIA GPU 和 OpenGL）
-path = "塞尔达传说: 旷野之息/变通办法/针对 OpenGL 的 GPU 特定解决方法/NVIDIA：延伸的云"
+path = "塞尔达传说: 旷野之息/Bug修复/针对 OpenGL 的 GPU 特定解决方法/NVIDIA：延伸的云"
 description = 如果您使用的是 OpenGL 和 NVIDIA GPU，则一些低悬的云看起来被拉伸的解决方法。||由 Exzap 制造。
 vendorFilter = nvidia
 rendererFilter = opengl

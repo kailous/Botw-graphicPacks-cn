@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = "视角MOD"
-path = "塞尔达传说: 旷野之息/附加MOD/视角切换(单选)/偏左(近景)"
-description = 人物更大且靠近屏幕左侧，视野较小。||汉化 RainForest
-version = 4

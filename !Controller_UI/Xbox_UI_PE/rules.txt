@@ -1,7 +1,0 @@
-[Definition]
-titleIds = 00050000101C9300
-name = Xbox UI
-path = "塞尔达传说: 旷野之息/附加MOD/按键布局切换(手柄UI)/Xbox手柄(单选)/标准键位"
-description = 替换WiiU Pad手柄UI为Xbox手柄UI.|需要Cemu输入设置按键 (A->A,B->B,X->X,Y->Y)|可能引起修改器无法正常搜索部分数据.||勾选 [失落遗迹] [第二荒野] 时该项失效.
-version = 4
-fsPriority = 1003

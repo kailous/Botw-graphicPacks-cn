@@ -1,0 +1,436 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = FPS++
+path = "塞尔达传说: 旷野之息/显示/FPS++"
+description = 允许您更改 FPS 和大多数事物的运行速度。|如果您以高 FPS 运行，可能仍会出现一些错误。||由 Xalphenos、rajkosto、epigramx、Crementif、leoetlino、Pig 和 Exzap 制作。
+version = 6
+
+[Default]
+$fpsLockMode:int = 0
+$advancedMode:int = 0
+$staticFPSMode:int = 0
+
+$fpsLimitNormal = 60
+$fpsLimitAdvanced = 60
+$keepVsync:int = 1
+
+$frameAverageAmount = 8
+$fenceMethod = 1
+$lowFPSLimit = 20
+$cutsceneFPSLimitMode:int = 1
+$roundUpModifier = 0.8
+
+$showDebugModeOptions:int = 0
+$debugMode:int = 0
+$debugMultiplier = 1
+
+
+# Settings Mode
+
+[Preset]
+name = 常规设置
+category = Mode
+default = 1
+$advancedMode:int = 0
+
+[Preset]
+name = 高级设置
+category = Mode
+$advancedMode:int = 1
+
+
+# Simple FPS Limit
+
+[Preset]
+name = 240FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 240
+$keepVsync:int = 0
+
+[Preset]
+name = 165FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 165
+$keepVsync:int = 0
+
+[Preset]
+name = 144FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 144
+$keepVsync:int = 0
+
+[Preset]
+name = 120FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 120
+$keepVsync:int = 0
+
+[Preset]
+name = 90FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 90
+$keepVsync:int = 0
+
+[Preset]
+name = 75FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 75
+$keepVsync:int = 0
+
+[Preset]
+name = 72FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 72
+$keepVsync:int = 0
+
+[Preset]
+name = 60FPS Limit (默认)
+category = FPS Limit
+condition = $advancedMode == 0
+default = 1
+$fpsLimitNormal = 60
+$keepVsync:int = 0
+
+[Preset]
+name = 55FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 55
+$keepVsync:int = 0
+
+[Preset]
+name = 45FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 45
+$keepVsync:int = 0
+
+[Preset]
+name = 30FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 30
+$keepVsync:int = 0
+
+[Preset]
+name = 20FPS Limit
+category = FPS Limit
+condition = $advancedMode == 0
+$fpsLimitNormal = 20
+$keepVsync:int = 0
+
+
+# Advanced Settings
+
+# Framerate Limit
+
+[Preset]
+name = 无 FPS 限制（用于基准测试）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 500
+$keepVsync:int = 0
+
+[Preset]
+name = 244FPS（适用于 244Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 244
+$keepVsync:int = 0
+
+[Preset]
+name = 240FPS（适用于 240Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 240
+$keepVsync:int = 0
+
+[Preset]
+name = 165FPS（适用于 165Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 165
+$keepVsync:int = 0
+
+[Preset]
+name = 144FPS（适用于 144Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 144
+$keepVsync:int = 0
+
+[Preset]
+name = 120FPS（适用于 240/120/60Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 120
+$keepVsync:int = 0
+
+[Preset]
+name = 75FPS（75Hz 显示器的理想选择）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 75
+$keepVsync:int = 0
+
+[Preset]
+name = 72FPS（适用于 144Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 72
+$keepVsync:int = 0
+
+[Preset]
+name = 60FPS（适用于 240/120/60Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+default = 1
+$fpsLimitAdvanced = 60
+$keepVsync:int = 0
+
+[Preset]
+name = 55FPS（适用于 165Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 55
+$keepVsync:int = 0
+
+[Preset]
+name = 48FPS（适用于 144Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 48
+$keepVsync:int = 0
+
+[Preset]
+name = 40FPS（适用于 240/120/60Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 40
+$keepVsync:int = 0
+
+[Preset]
+name = 33FPS（适用于 165Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 33
+$keepVsync:int = 0
+
+[Preset]
+name = 30FPS（适用于 240/120/60Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 30
+$keepVsync:int = 0
+
+[Preset]
+name = 20FPS（适用于 240/120/60Hz 显示器）
+category = 帧率限制
+condition = $advancedMode == 1
+$fpsLimitAdvanced = 20
+$keepVsync:int = 0
+
+# Double-Buffered VSync
+
+# [Preset]
+# name = 已启用（推荐，使用 Cemu 的 Vsync）
+# category = 覆盖双缓冲 Vsync
+# condition = (($advancedMode == 1) + ($fpsLimitAdvanced != 30)) == 2
+# default = 1
+# $keepVsync:int = 0
+# 
+# [Preset]
+# name = 禁用（不推荐）
+# category = 覆盖双缓冲 Vsync
+# condition = (($advancedMode == 1) + ($fpsLimitAdvanced != 30)) == 2
+# $keepVsync:int = 1
+# 
+# [Preset]
+# name = 启用（默认）
+# category = 覆盖双缓冲 Vsync
+# condition = (($advancedMode == 1) + ($fpsLimitAdvanced == 30)) == 2
+# $keepVsync:int = 0
+# 
+# [Preset]
+# name = 已禁用（可以提高 30FPS 的帧同步）
+# category = 覆盖双缓冲 Vsync
+# condition = (($advancedMode == 1) + ($fpsLimitAdvanced == 30)) == 2
+# default = 1
+# $keepVsync:int = 1
+
+
+# Cutscene FPS Limit Mode
+
+[Preset]
+name = 自动限制过场动画（推荐）
+category = 过场动画 FPS 限制
+condition = $advancedMode == 1
+default = 1
+$cutsceneFPSLimitMode:int = 1
+
+[Preset]
+name = 将所有过场动画限制为 60FPS
+category = 过场动画 FPS 限制
+condition = $advancedMode == 1
+$cutsceneFPSLimitMode:int = 2
+
+[Preset]
+name = 将所有过场动画限制为 30FPS
+category = 过场动画 FPS 限制
+condition = $advancedMode == 1
+$cutsceneFPSLimitMode:int = 3
+
+[Preset]
+name = 已禁用（导致崩溃超过 30-60FPS）
+category = 过场动画 FPS 限制
+condition = $advancedMode == 1
+$cutsceneFPSLimitMode:int = 0
+
+# Static Mode
+
+[Preset]
+name = 启用（低于帧率限制时减速）
+category = 静态模式
+condition = $advancedMode == 1
+$staticFPSMode:int = 1
+
+[Preset]
+name = 禁用（默认，动态调整游戏速度）
+category = 静态模式
+condition = $advancedMode == 1
+default = 1
+$staticFPSMode:int = 0
+
+
+# Frame Average
+
+[Preset]
+name = 平均 16 帧
+category = 平均帧数
+condition = ($advancedMode-$staticFPSMode == 1)
+$frameAverageAmount = 16
+
+[Preset]
+name = 平均 8 帧（默认）
+category = 平均帧数
+condition = ($advancedMode-$staticFPSMode == 1)
+default = 1
+$frameAverageAmount = 8
+
+[Preset]
+name = 平均 6 帧
+category = 平均帧数
+condition = ($advancedMode-$staticFPSMode == 1)
+$frameAverageAmount = 6
+
+[Preset]
+name = 平均 4 帧（抖动动画）
+category = 平均帧数
+condition = ($advancedMode-$staticFPSMode == 1)
+$frameAverageAmount = 4
+
+[Preset]
+name = 平均 3 帧（抖动动画）
+category = 平均帧数
+condition = ($advancedMode-$staticFPSMode == 1)
+$frameAverageAmount = 3
+
+
+# Fence Type
+
+[Preset]
+name = 性能围栏（默认）
+category = 围栏类型
+condition = $advancedMode == 1
+default = 1
+$fenceMethod = 1
+
+[Preset]
+name = 准确的围栏
+category = 围栏类型
+condition = $advancedMode == 1
+$fenceMethod = 2
+
+[Preset]
+name = 围栏跳过
+category = 围栏类型
+condition = $advancedMode == 1
+$fenceMethod = 3
+
+
+# Debug Menu Options
+
+[Preset]
+name = 禁用（默认）
+category = 调试选项
+condition = ($advancedMode + $showDebugModeOptions == 2)
+default = 1
+$debugMode:int = 0
+$debugMultiplier = 1
+
+[Preset]
+name = 将调试地址乘以 100 倍
+category = 调试选项
+condition = ($advancedMode + $showDebugModeOptions == 2)
+$debugMode:int = 1
+$debugMultiplier = 100
+
+[Preset]
+name = 将调试地址乘以 50 倍
+category = 调试选项
+condition = ($advancedMode + $showDebugModeOptions == 2)
+$debugMode:int = 1
+$debugMultiplier = 50
+
+[Preset]
+name = 将调试地址乘以 10 倍
+category = 调试选项
+condition = ($advancedMode + $showDebugModeOptions == 2)
+$debugMode:int = 1
+$debugMultiplier = 10
+
+[Preset]
+name = 绑定帧率
+category = 调试选项
+condition = ($advancedMode + $showDebugModeOptions == 2)
+$debugMode:int = 1
+$debugMultiplier = 1
+
+[Preset]
+name = 将调试值除以 10 倍
+category = 调试选项
+condition = ($advancedMode + $showDebugModeOptions == 2)
+$debugMode:int = 1
+$debugMultiplier = -10
+
+[Preset]
+name = 将调试值除以 30 倍
+category = 调试选项
+condition = ($advancedMode + $showDebugModeOptions == 2)
+$debugMode:int = 1
+$debugMultiplier = -30
+
+[Preset]
+name = 将调试值除以 50 倍
+category = 调试选项
+condition = ($advancedMode + $showDebugModeOptions == 2)
+$debugMode:int = 1
+$debugMultiplier = -50
+
+[Preset]
+name = 将调试值除以 100 倍
+category = 调试选项
+condition = ($advancedMode + $showDebugModeOptions == 2)
+$debugMode:int = 1
+$debugMultiplier = -100
+
+
+[Control]
+vsyncFrequency = (($keepVsync == 1) * 60) + (($keepVsync == 0) * ((($advancedMode == 1) * $fpsLimitAdvanced) + (($advancedMode == 0) * $fpsLimitNormal)))

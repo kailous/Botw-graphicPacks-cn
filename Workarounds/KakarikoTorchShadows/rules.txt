@@ -1,7 +1,7 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
 name = 卡卡利科村火炬阴影变通办法 (OpenGL)
-path = "塞尔达传说: 旷野之息/变通办法/卡卡利科村火炬阴影变通办法 (OpenGL)"
+path = "塞尔达传说: 旷野之息/Bug修复/卡卡利科村火炬阴影变通办法 (OpenGL)"
 description = 使用 OpenGL 时在 卡卡利科村 的火把周围看到的方形阴影的解决方法。||由 Kiri 制作。
 rendererFilter = opengl
 version = 6
