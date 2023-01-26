@@ -25,3 +25,9 @@ GITHUB=git@github.com:kailous/Botw-graphicPacks-cn.git
 CEMU=${HOME}/Library/Application Support/Cemu/graphicPacks/Botw-graphicPacks-cn
 git clone ${GITHUB} ${CEMU}
 ```
+### git更新
+```
+cd ${HOME}/Library/Application Support/Cemu/graphicPacks/Botw-graphicPacks-cn
+git fetch --all
+git pull
+```
