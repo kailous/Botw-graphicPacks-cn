@@ -18,3 +18,10 @@
 ### Tips
 - 建议使用 `Githob` 管理此插件，方便随时保持文件是最新的。更新的时候仅下载更改了的文件，而不是每次下载全部。之后补充下载和更新的脚本。
 - 因为时间精力有限，官方的更新可能跟进的不会很及时，如果有你需要的插件不在此项目中，或者版本较低，请在 `Github` 或者 `Notion` 中进行反馈。
+
+### git下载
+```
+GITHUB=git@github.com:kailous/Botw-graphicPacks-cn.git
+CEMU=${HOME}/Library/Application Support/Cemu/graphicPacks/Botw-graphicPacks-cn
+git clone ${GITHUB} ${CEMU}
+```
